@@ -10,3 +10,14 @@ C:\Users\Admin\Desktop\WebNangCao\Model\obj\Debug\Model.csproj.CoreCompileInputs
 C:\Users\Admin\Desktop\WebNangCao\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\Admin\Desktop\WebNangCao\Model\obj\Debug\Model.dll
 C:\Users\Admin\Desktop\WebNangCao\Model\obj\Debug\Model.pdb
+D:\DuAn\nhom13\Model\bin\Debug\Model.dll.config
+D:\DuAn\nhom13\Model\bin\Debug\Model.dll
+D:\DuAn\nhom13\Model\bin\Debug\Model.pdb
+D:\DuAn\nhom13\Model\bin\Debug\EntityFramework.dll
+D:\DuAn\nhom13\Model\bin\Debug\EntityFramework.SqlServer.dll
+D:\DuAn\nhom13\Model\bin\Debug\EntityFramework.xml
+D:\DuAn\nhom13\Model\bin\Debug\EntityFramework.SqlServer.xml
+D:\DuAn\nhom13\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\DuAn\nhom13\Model\obj\Debug\Model.csproj.CopyComplete
+D:\DuAn\nhom13\Model\obj\Debug\Model.dll
+D:\DuAn\nhom13\Model\obj\Debug\Model.pdb
