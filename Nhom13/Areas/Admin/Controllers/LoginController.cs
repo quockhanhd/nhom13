@@ -54,5 +54,12 @@ namespace Nhom13.Areas.Admin.Controllers
             }
             return View("Index");
         }
+        public ActionResult Logout()
+        {
+            Session.Clear();
+            Session.Abandon();
+            return RedirectToAction("Index", "Login");
+
+        }
     }
 }
