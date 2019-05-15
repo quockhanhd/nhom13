@@ -16,11 +16,10 @@ namespace Nhom13.Areas.Admin.Controllers
             return View();
         }
 
-<<<<<<< HEAD
         public JsonResult GetCartegoryList()
         {
             return Json(new { data = db.Course_Category.ToList() });
-=======
+        }
         [HttpPost, ValidateInput(false)]
         public JsonResult AddCartegory(string name, string des)
         {
@@ -36,7 +35,6 @@ namespace Nhom13.Areas.Admin.Controllers
             }
             else
                 return Json(new { data = false });
->>>>>>> feature/AddCategory
         }
     }
 }
