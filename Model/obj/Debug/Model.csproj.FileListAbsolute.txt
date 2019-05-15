@@ -22,6 +22,7 @@ D:\DuAn\nhom13\Model\obj\Debug\Model.csproj.CopyComplete
 D:\DuAn\nhom13\Model\obj\Debug\Model.dll
 D:\DuAn\nhom13\Model\obj\Debug\Model.pdb
 D:\DuAn\nhom13\Model\obj\Debug\Model.csprojAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\Admin\Desktop\nhom13\Model\bin\Debug\Model.dll.config
 C:\Users\Admin\Desktop\nhom13\Model\bin\Debug\Model.dll
 C:\Users\Admin\Desktop\nhom13\Model\bin\Debug\Model.pdb
@@ -34,3 +35,17 @@ C:\Users\Admin\Desktop\nhom13\Model\obj\Debug\Model.csproj.CoreCompileInputs.cac
 C:\Users\Admin\Desktop\nhom13\Model\obj\Debug\Model.csproj.CopyComplete
 C:\Users\Admin\Desktop\nhom13\Model\obj\Debug\Model.dll
 C:\Users\Admin\Desktop\nhom13\Model\obj\Debug\Model.pdb
+=======
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\Model.dll.config
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\Model.dll
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\Model.pdb
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\EntityFramework.dll
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\EntityFramework.xml
+C:\Users\quock\Desktop\nhom13\Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\quock\Desktop\nhom13\Model\obj\Debug\Model.csprojAssemblyReference.cache
+C:\Users\quock\Desktop\nhom13\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+C:\Users\quock\Desktop\nhom13\Model\obj\Debug\Model.csproj.CopyComplete
+C:\Users\quock\Desktop\nhom13\Model\obj\Debug\Model.dll
+C:\Users\quock\Desktop\nhom13\Model\obj\Debug\Model.pdb
+>>>>>>> 870287267583839d393a2d96fa1e3ee3ccf09f12
