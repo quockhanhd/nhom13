@@ -1,0 +1,46 @@
+﻿@{
+    Layout = null;
+    var obj = ViewData["Obj"] as Model.EF.Course_Category;
+    var mode = ViewData["Mode"];
+}
+
+
+<div id="AddandEditCartegoryModal" class="modal fade">
+    <div class="modal-dialog modal-lg" id="m1">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title"><b>Thông tin khóa học</b></h4>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            </div>
+            <div class="modal-body">
+                <form id="frmAddEdit">
+                    <input type="hidden" name="mode" id="mode" value="@*@ViewData[" Mode"]*@" />
+                    <div class="form-group">
+                        <input class="form-control" id="iID" type="hidden" value="@obj.ID">
+                    </div>
+                    <div class="form-group">
+                        <label>Name</label>
+                        <input type="text" class="form-control" id="iName" value="@obj.Name">
+                    </div>
+                    <div class="form-group">
+                        <label>Description</label>
+                        <textarea name="editor" id="iDescription" rows="9" cols="80">
+                            @obj.Description
+                        </textarea>
+                    </div>
+                </form>
+
+            </div>
+            <div class="modal-footer">
+                <button id="bt" type="button" class="btn btn-success" onclick="Save(@obj.ID)">Save</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="~/Scripts/Admin/CourseCartegory.js"></script>
+
+
+
+
