@@ -16,6 +16,21 @@ namespace Nhom13.Areas.Admin.Controllers
             return View();
         }
 
-    
+        [HttpPost, ValidateInput(false)]
+        public JsonResult AddCartegory(string name, string des)
+        {
+            if (ModelState.IsValid)
+            {
+                Course_Category cartegory = new Course_Category();
+                cartegory.Name = name;
+                cartegory.Description = des;
+                cartegory.CreatedDate = DateTime.Now;
+                db.Course_Category.Add(cartegory);
+                db.SaveChanges();
+                return Json(new { });
+            }
+            else
+                return Json(new { data = false });
+        }
     }
 }
