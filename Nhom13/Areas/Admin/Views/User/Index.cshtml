@@ -1,8 +1,32 @@
 ﻿
 @{
-    ViewBag.Title = "Index";
-    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Home Page";
 }
+<div class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header with-border">
+                    <h3 class="box-title">Bảng thành viên</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <table id="dtable" class="table table-bordered table-striped" width="100%">
+                        <thead>
+                            <tr>
+                                <th>GroupID</th>
+                                <th>Name</th>
+                                <th>Email</th>
 
-<h2>Index</h2>
+                                <th><button type="button" onclick="fnShowModal('0')" class="btn btn-success">Thêm</button></th>
+                                <th></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
+<script src="~/Scripts/Admin/Admin.js"></script>

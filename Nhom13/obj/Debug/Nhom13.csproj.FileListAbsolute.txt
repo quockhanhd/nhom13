@@ -150,3 +150,10 @@ C:\Users\Admin\Desktop\nhom13\Nhom13\obj\Debug\Nhom13.csproj.CoreCompileInputs.c
 C:\Users\Admin\Desktop\nhom13\Nhom13\obj\Debug\Nhom13.csproj.CopyComplete
 C:\Users\Admin\Desktop\nhom13\Nhom13\obj\Debug\Nhom13.dll
 C:\Users\Admin\Desktop\nhom13\Nhom13\obj\Debug\Nhom13.pdb
+D:\DuAn\nhom13\Nhom13\bin\EntityFramework.dll
+D:\DuAn\nhom13\Nhom13\bin\EntityFramework.SqlServer.dll
+D:\DuAn\nhom13\Nhom13\bin\Model.dll
+D:\DuAn\nhom13\Nhom13\bin\Model.pdb
+D:\DuAn\nhom13\Nhom13\bin\Model.dll.config
+D:\DuAn\nhom13\Nhom13\bin\EntityFramework.xml
+D:\DuAn\nhom13\Nhom13\bin\EntityFramework.SqlServer.xml
