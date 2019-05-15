@@ -6,7 +6,7 @@ using System.Web.Mvc;
 using Model.EF;
 namespace Nhom13.Areas.Admin.Controllers
 {
-    public class UserController : Controller
+    public class UserController : BaseController
     {
         OnlineCourse db = new OnlineCourse();
 

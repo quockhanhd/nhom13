@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using Model.DAO;
 using Nhom13.Areas.Admin.Models;
-
+using Nhom13.Common;
 namespace Nhom13.Areas.Admin.Controllers
 {
     public class LoginController : Controller
@@ -29,6 +29,7 @@ namespace Nhom13.Areas.Admin.Controllers
                     Session["UserName"] = user.UserName;
                     Session["GroupID"] = user.GroupID;
                     Session["Name"] = user.Name;
+                    Session.Add(CommonConstants.USER_SESSION, userSession);
                     return RedirectToAction("Index", "User");
                 }
                 else if (result == 0)
