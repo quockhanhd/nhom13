@@ -16,6 +16,9 @@ namespace Nhom13.Areas.Admin.Controllers
             return View();
         }
 
-    
+        public JsonResult GetCartegoryList()
+        {
+            return Json(new { data = db.Course_Category.ToList() });
+        }
     }
 }
